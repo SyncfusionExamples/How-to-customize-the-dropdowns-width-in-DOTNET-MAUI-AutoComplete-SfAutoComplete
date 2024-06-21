@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+            xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
+           xmlns:local="clr-namespace:DropdownwidthMaui"
+             x:Class="DropdownwidthMaui.MainPage">
+
+    <editors:SfAutocomplete DropdownWidth="250"
+                        HeightRequest="40"
+                       WidthRequest="200">
+        <editors:SfAutocomplete.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Uganda</x:String>
+                <x:String>Ukraine</x:String>
+                <x:String>United States</x:String>
+                <x:String>United Kingdom</x:String>
+                <x:String>Uzbekistan</x:String>
+            </x:Array>
+        </editors:SfAutocomplete.ItemsSource>
+    </editors:SfAutocomplete>
+
+
+</ContentPage>
