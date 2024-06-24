@@ -2,9 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
-            xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
-           xmlns:local="clr-namespace:DropdownwidthMaui"
-             x:Class="DropdownwidthMaui.MainPage">
+             x:Class="DropdownWidthAutoComplete.MainPage">
 
     <editors:SfAutocomplete DropdownWidth="250"
                         HeightRequest="40"
@@ -19,6 +17,5 @@
             </x:Array>
         </editors:SfAutocomplete.ItemsSource>
     </editors:SfAutocomplete>
-
 
 </ContentPage>

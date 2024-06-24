@@ -1,4 +1,4 @@
-﻿namespace DropdownwidthMaui
+﻿namespace DropdownWidthAutoComplete
 {
     public partial class AppShell : Shell
     {

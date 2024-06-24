@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace DropdownwidthMaui
+namespace DropdownWidthAutoComplete
 {
     public class Program
     {
